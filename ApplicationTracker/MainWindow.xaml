@@ -1,0 +1,28 @@
+﻿<Window x:Class="ApplicationTracker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ApplicationTracker"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="tb_Company" HorizontalAlignment="Left" Height="23" Margin="479,10,0,0" TextWrapping="Wrap" Text="Company" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lbl_Company" Content="Company" HorizontalAlignment="Left" Margin="339,6,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb_Position" HorizontalAlignment="Left" Height="23" Margin="479,42,0,0" TextWrapping="Wrap" Text="Position" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lbl_Position" Content="Position" HorizontalAlignment="Left" Margin="339,38,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb_AnnouncementID" HorizontalAlignment="Left" Height="23" Margin="479,74,0,0" TextWrapping="Wrap" Text="AnnouncementID" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lbl_AnnouncementID" Content="AnnouncementID" HorizontalAlignment="Left" Margin="339,70,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb_URL" HorizontalAlignment="Left" Height="23" Margin="479,100,0,0" TextWrapping="Wrap" Text="URL" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lbl_URL" Content="URL" HorizontalAlignment="Left" Margin="339,96,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_DateApplied" Content="Date Applied" HorizontalAlignment="Left" Margin="339,128,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="dp_DateApplied" HorizontalAlignment="Left" Margin="479,132,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb_CurrentStatus" HorizontalAlignment="Left" Height="23" Margin="479,164,0,0" TextWrapping="Wrap" Text="Applied" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lbl_CurrentStatus" Content="Current Status" HorizontalAlignment="Left" Margin="339,160,0,0" VerticalAlignment="Top"/>
+        
+        <Label x:Name="lbl_Notes" Content="Notes" HorizontalAlignment="Left" Margin="339,191,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="lb_Notes" HorizontalAlignment="Left" Height="100" Margin="342,222,0,0" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="tbNote" HorizontalAlignment="Left" Height="100" Margin="479,222,0,0" TextWrapping="Wrap" Text="This note" VerticalAlignment="Top" Width="290" UndoLimit="105" AcceptsReturn="True" AcceptsTab="True" VerticalScrollBarVisibility="Auto"/>
+
+    </Grid>
+</Window>
